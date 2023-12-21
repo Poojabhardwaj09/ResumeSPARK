@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    height: 700%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.one{
+    height: 16%;
+    width: 100%;
+    
+    text-align: center;
+    
+    
+    
+}
+.two{
+    
+    height: 300%;
+    width: 19%;
+    top: 3%;
+    margin-top: 4%;
+    margin-left:2% ;
+    background-image: url(template0.png);
+    background-size: cover;
+padding-right: 48%;
+    
+}
+
+
+.intro{
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    
+    right: 0%;
+}
+.intro p{
+    font-size: 1.7vw;
+    
+    
+    padding-top: 12%;
+
+    
+    text-align: left;
+    position: absolute;
+}
+.tag{
+    height: 65%;
+    width: 36vw;
+    
+    background-image: url(recruitment-agency-concept-isolated-candidate-resume-search-human-resources-people-scene-flat-cartoon-design-vector-illustration-blogging-website-mobile-app-promotional-materials_9209-6545.avif);
+background-size: cover;
+padding-top: 3%;
+background-position: center;
+position: absolute;
+}
+
+.three{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF;
+    
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0 ;
+}
+.slide-content{
+    margin: 0 40px;
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    
+}
+
+.three .card-image{
+    position: relative;
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    border-radius: 6%;
+    background: #FFF;
+    padding: 3px;
+}
+.three .card-image .card-img{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 6%;
+    border:4px solid #1e90ff ;
+    
+}
+.slide-container.button{
+    border: none;
+    font-size: 16px; 
+    color: #1e90ff;
+    padding: 8px 16px;
+    background-color: #1e90ff;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background:#1e90ff;
+ }
+
+ .four{
+    height: 900%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    justify-content: flex-start;
+    
+    
+}
+.content{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    text-align: center;
+    text-decoration:red underline;
+}
+.wt{
+    position: absolute;
+    top: 20%;
+    width: 27vw;
+    height: 27vw;
+    left: 16%;
+    background-image: url(faq3@2x.png);
+    background-size: cover;
+}
+.cv{
+    position: absolute;
+    width: 27vw;
+    top: 35%;
+    left:16% ;
+    height:27vw ;
+    background-image: url(faq4@2x.png);
+    background-size: cover;
+}
+.how{
+    position: absolute;
+    width: 27vw;
+    top: 50%;
+    left:16% ;
+    height:27vw ;
+    background-image: url(faq5@2x.png);
+    background-size: cover;
+}
+.inc{
+    position: absolute;
+    width: 27vw;
+    top: 65%;
+    left:16% ;
+    height:27vw ;
+    background-image: url(faq6@2x.png);
+    background-size: cover;
+}
+.why{
+    position: absolute;
+    width: 27vw;
+    top: 83%;
+    left:16% ;
+    height:27vw ;
+    background-image: url(faq0@2x.png);
+    background-size: cover;
+
+}
+
+.an1{
+    top: 23%;
+    position: absolute;
+    width: 40%;
+    font-size: x-large;
+    right: 6%;
+    
+}
+.an2{
+    top: 39%;
+    position: absolute;
+    width: 40%;
+    font-size: x-large;
+    right: 6%;
+    
+}
+.an3{
+    top: 54%;
+    position: absolute;
+    width: 40%;
+    font-size: x-large;
+    right: 6%;
+}
+.an4{
+    top: 67%;
+    position: absolute;
+    width: 40%;
+    font-size: x-large;
+    right: 6%;
+}
+.an5{
+    top: 85%;
+    position: absolute;
+    width: 40%;
+    font-size: x-large;
+    right: 6%;
+}
+.five{
+    height: 200%;
+    width: 100%;
+    position: relative;
+background-image: url();
+background-size: cover;
+}
+.fb{
+    display: flex;
+    text-align: center;
+    
+    padding-top: 1%;
+    width: 40%;
+    margin-left: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+justify-content: space-between;
+}
+.cu{
+font-size: larger;
+margin-left: 40%;
+width: 10%;
+padding-top: 1%;
+}
+.au{
+    top: 0%;
+    margin-top: 3%;
+ width: 15%;
+ margin-left: 37%;
+    background-color: brown;
+    margin-right: 70%;
+    text-align: center;
+    font-size: 1vw;
+}
+.a{
+    height: 13%;
+    width: 7%;
+    left: 1%;
+    
+background-image: url(bg.png);
+background-size: cover;
+background-position: center;
+padding-right: 30%;
+}
+.b{
+    height: 13%;
+    width: 27%;
+    background-image: url(prd.jpeg);
+    background-size: cover;
+    position: absolute;
+    padding-right: 30%;
+    background-position: center;
+    right: 35%;
+}
+
+.d{
+    height: 13%;
+    width: 33%;
+    background-image: url(hit.png);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    right: 1%;
+    background-color: brown;
+}
+.icon{
+    right: 0%;
+    position: absolute;
+}
+.sm{
+    text-align: center;
+    font-size: 1vw;
+    background-color: brown;
+    margin-left: 32%;
+    right: 0%;
+ width: 25%;
+    left: 35%;
+    margin-top: 7%;
+}
+ 
+.foot{
+    height: 500px;
+    width: 500px;
+    left: 67%;
+    top: 620%;
+    position: absolute;
+    background-image: url(footer.2.png);
+    background-size: cover;
+}
+
+
+
+
+  
+  
